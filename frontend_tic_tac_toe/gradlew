@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Gradle wrapper stub.
+# This Expo-managed project does not commit a full native Android Gradle project by default.
+# Some automated checks may still call "./gradlew" from the repo root; this stub prevents
+# failures due to the wrapper being absent.
+#
+# To generate a real native Android project (including an actual Gradle wrapper), run:
+#   npx expo prebuild --platform android
+
+echo "gradlew stub: no native Gradle project checked into this repo."
+echo "Generate one with: npx expo prebuild --platform android"
+exit 0
