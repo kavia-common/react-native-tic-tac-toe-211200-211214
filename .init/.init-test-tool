@@ -1,0 +1,4 @@
+{
+    "command": "npm run lint",
+    "working_directory": "/home/kavia/workspace/code-generation/react-native-tic-tac-toe-211200-211214/frontend_tic_tac_toe"
+}
