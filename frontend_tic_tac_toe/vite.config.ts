@@ -1,6 +1,6 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
-import { VitePluginReactNativeWeb } from "vite-plugin-react-native-web";
+import reactNativeWeb from "vite-plugin-react-native-web";
 
 /**
  * Vite config for React Native Web preview.
@@ -10,7 +10,7 @@ export default defineConfig({
   plugins: [
     react(),
     // Provides correct aliasing and environment shims for react-native-web.
-    VitePluginReactNativeWeb(),
+    reactNativeWeb(),
   ],
   server: {
     // Let the platform pass PORT/HOST via .project_manifest.yaml placeholders.
